@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #06623B;
+  font-size: 4.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #06623B;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  color: #708160;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem
+}
+
+p {
+  line-height: 1.2;
+}
+
+hr {
+  border: dotted #649D66 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+color: #222831;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+a:hover {
+
+color: #EAF6F6;
+
+}
+.top-container {
+  background-color: #649D66;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #649D66;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.itro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+  background-color: #77b55a;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+  background-color: #72b352;
+}
